@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  *,
+  *:before,
+  *:after {
+    -moz-box-sizing: border-box;
+    -weblot-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :focus,
+  :active {
+    outline: none;
+  }
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  input::-ms-clear {
+    display: none;
+  }
+  buttom {
+    cursor: pointer;
+  }
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  ul li {
+    list-style: none;
+  }
+  img {
+    vertical-align: top;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
+  .wrapper{
+    width: 1376px;
+    margin:0 auto}
+  .contant{}
+
+  .header{
+    background:url(/img/Layer\ 1.png) no-repeat;
+    width: 1280px;}
+  .header__row{
+    display:flex;
+    flex-direction: column;
+    align-items: center;}
+
+  .header__top{
+    max-width: 273px;
+    max-height: 273px;
+    margin-top: 68px;}
+  
+  .header__mid{
+    font-size: 49px;
+    color:#fff;
+    text-align: center;
+    margin-top: 58px;}
+  .header__mid p{margin-top: 15px;}
+
+  .header__bot{margin-top: 100px;
+    border: 1px solid #000;
+    width: 350px;
+    height: 350px;
+    display: block;
+    background-color: #fff;
+    box-shadow:0px 1px 1px 0px #000}
+  .header__bot__row{}
+  .header__bot__title{;
+    color:#B4ADAD;
+    border: 1px solid #B4ADAD;
+    padding-right: 112px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+    padding-left: 14px;
+    margin: 31px 35px 22px 36px;}
+  .header__bot__image{flex-direction: column;}
+  .header__bot__list{display: flex;}
+  .header__bot__list2{display: flex;}
+  .header__bot__list li{}
+  .header__bot__list2 li{border:0.5px solid #fff}
+  .header__bot__text{color:#938E8E;
+    text-align: center;
+    margin-bottom: 35px;}
+  .header__bot__press{border-radius: 3px;
+    border:1px solid #2a63f9;
+    background-color: #2a63f9;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    padding:12px 40px;
+    font-size: 25px;
+    margin-left: 61px;}
+.header__bot__press a{color:#fff}
+.header__bot__press a:hover{color:yellow}
